@@ -4,17 +4,18 @@ html {
   position: relative;
 }
 
+// Estilos del footer
 .footer-estilo {
   background-color: #0d1222;
   color: white;
-
-  /* bottom: 0px; */
   margin-top: 20px;
   margin-bottom: 0px;
   width: 100%;
   position: absolute;
 }
+// .
 
+// Estilos del fondo
 .background {
   height: 100vh;
   width: 100vw;
@@ -26,7 +27,9 @@ html {
   top: 0;
   z-index: -1;
 }
+// .
 
+// Div del contenido principal
 .cuerpo {
   padding: 20px;
   margin: 0;
@@ -37,12 +40,11 @@ html {
   height: 100%;
   border-radius: 20px;
 }
+// .
 
+// Navbar
 .menu {
   background-color: #0d1222;
-
-  /* border-radius: 15px; */
-  /* width: 1200px; */
   padding: 0;
   margin: 0;
   min-height: 100%;
@@ -92,7 +94,9 @@ html {
     background-color: #37305e;
   }
 }
+// Fin del navbar
 
+// Estilos carrusel
 .size-carrusel {
   width: auto;
   height: auto;
@@ -112,7 +116,9 @@ html {
 .carrusel {
   height: 600px;
 }
+// Fin del carrusel
 
+// Estilos del formulario de Turnos
 .formulario-titulo {
   display: flex;
   justify-content: center;
@@ -139,6 +145,7 @@ html {
   align-items: center;
   margin: auto;
 }
+// Fin del formulario de Turnos
 
 #grid {
   display: grid;
@@ -171,8 +178,8 @@ html {
   }
 }
 
-/* Contenedores de Cortes */
 
+/* Contenedores de Cortes */
 .contenedor {
   display: flex;
   max-width: 1000px;
@@ -216,7 +223,9 @@ input, label {
   font-size: 30px;
   color: white;
 }
+// Fin de contenedor de cortes
 
+// Estilos del footer
 @media (max-width: 880px) {
   .footer-distributed {
     .footer-left, .footer-center, .footer-right {
@@ -231,9 +240,9 @@ input, label {
     }
   }
 }
+// .
 
 /* Descripción Barbería */
-
 .contenedor-descripcion {
   display: flex;
   position: relative;
@@ -264,9 +273,9 @@ input, label {
   justify-content: center;
   color: white;
 }
+// Fin de la descripcion
 
-/* sucursal */
-
+// Comienzo de la sucursal
 .contenedor-sucursal {
   display: flex;
   position: relative;
@@ -297,12 +306,12 @@ input, label {
   align-items: center;
   justify-content: center;
 }
- 
+// Fin de la sucursal
 
 
 
 
-
+// Estilos de img redireccion a catálogos
 .overlay-box {
   background-color: white;
   background-size: 100%;
@@ -350,7 +359,9 @@ input, label {
   width: 150px;
   height: 150px;
 }
+// Fin de estilos de img redireccion a catálogos
 
+// Estilos de Redes
 .contenedor-redes {
   display: flex;
   flex-direction: column;
@@ -384,3 +395,4 @@ input, label {
   flex-direction: column;
   padding: 30px;
 }
+// Fin de estilos de redes
